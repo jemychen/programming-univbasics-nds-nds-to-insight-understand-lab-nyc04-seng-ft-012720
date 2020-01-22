@@ -13,7 +13,7 @@ def print_first_directors_movie_titles
   nds = directors_database()
   column_index = 0 
   while column_index < nds[0].length do
-    inner_len = nds[0][column_index]
+    inner_len = nds[0][column_index].length
     inner_index = 0
     while inner_index < inner_len do
       inner_index += 1
