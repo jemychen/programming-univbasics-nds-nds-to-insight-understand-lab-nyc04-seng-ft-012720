@@ -20,6 +20,5 @@ def print_first_directors_movie_titles
     end
     column_index += 1
   end
-  #pp(nds)
-  p (nds[0][column_index][inner_index][inner_index])
+  pp(nds)
 end
